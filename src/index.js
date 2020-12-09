@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+// import Potato from './Potato'
+// ! React Application는 하나의 Component만을 Rendering 해야하기 때문에 다른 컴포넌트 포함 불가. -> App.js 안에 포함시켜야 함
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
@@ -10,8 +12,4 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
